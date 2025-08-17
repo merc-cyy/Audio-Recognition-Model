@@ -6,16 +6,16 @@ This project is a solution to the **Z by HP Unlocked Challenge** to develop a ma
 Project aimed and focused on audio data and signal processing.
 
 ## Technical Skills
-- TensorFlow                                      - Core framework for building and training the bird call classification model
-- Convolutional neural networks                   - Conv2D network to detect spatial patterns in audio spectrograms
-- Sequential model architecture                   - Linear stack of layers from Conv2D → Dense → sigmoid output
-- Binary classification                           - Single output neuron with sigmoid to predict Capuchin (1) vs Not Capuchin (0)
-- Signmoid activation                             - smoothen neuraon outputs for loss function and back propagation
-- Short TIme Fourier Transform                    - Converted raw audio waveforms into time-frequency spectrograms using 320-sample windows
-- Audio signal processing                         - Resampled audio from 44.1kHz to 16kHz and applied windowing for analysis
-- Model training and hyperparameter tuning        - Trained for 4 epochs with train/test split and monitored loss curves
-- Loss functions: (Binary Cross-Entropy) and optimization (Adam) - Used Adam optimizer with binary cross-entropy loss for training
-- Performance metrics (Precision, Recall)         - Evaluated model performance using precision and recall metrics during training
+- TensorFlow                                     
+- Convolutional neural networks                 
+- Sequential model architecture                  
+- Binary classification                           
+- Signmoid activation                          
+- Short TIme Fourier Transform                   
+- Audio signal processing                         
+- Model training and hyperparameter tuning        
+- Loss functions: (Binary Cross-Entropy) and optimization (Adam) 
+- Performance metrics (Precision, Recall)       
 
 
 ## How it works
@@ -45,9 +45,9 @@ Project aimed and focused on audio data and signal processing.
 
 5. Long Audio Processing
 
-Sliding Windows: Split forest recordings into non-overlapping 3-second segments
-Batch Inference: Processed multiple windows simultaneously for efficiency
-Format Flexibility: Handled both WAV training data and MP3 forest recordings
+- Split forest recordings into non-overlapping 3-second segments
+- Processed multiple windows simultaneously for efficiency
+- Handled both WAV training data and MP3 forest recordings
 
 6. Post-Processing & Results
 
